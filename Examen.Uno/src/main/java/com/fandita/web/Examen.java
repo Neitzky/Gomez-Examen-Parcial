@@ -22,11 +22,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
  
 public class Examen {
     
-  
-
+ 
  @RequestMapping(value="/todos", method=RequestMethod.GET, headers=("Accept=text/html"))  
 
-  @ResponseBody ArrayList<Evaluacion> ete(){
+  @ResponseBody ArrayList<Evaluacion> aqui(){
     return GeneradorCalificaciones.generarCalificaciones();
 }
 }
