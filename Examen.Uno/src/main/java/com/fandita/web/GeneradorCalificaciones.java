@@ -18,15 +18,15 @@ public class GeneradorCalificaciones {
         ArrayList<Evaluacion> boleta= new ArrayList<Evaluacion>();
         
         Evaluacion e;
-        e =new Evaluacion('petra', '5.8');
+        e =new Evaluacion("petra", 5.8f);
         boleta.add(e);
         
-        Evaluacion e;
-        e =new Evaluacion("jose",'7.4');
+        
+        e =new Evaluacion("jose",7.4f);
         boleta.add(e);
         
-        Evaluacion e;
-        e =new Evaluacion("roberta", '8.6');
+        
+        e =new Evaluacion("roberta", 8.6f);
         boleta.add(e);
         
       
